@@ -21,3 +21,7 @@ def accum(s):
       third.append(i.capitalize())
     answer.append("-".join(third))
     return (answer2.join(answer))
+
+
+
+#7kyu

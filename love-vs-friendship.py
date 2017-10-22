@@ -11,3 +11,6 @@ def words_to_marks(s):
     for i in s:
         number = number + values[i]
     return number
+
+
+#7kyu
