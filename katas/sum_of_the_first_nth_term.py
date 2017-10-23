@@ -11,6 +11,6 @@ def series_sum(n):
         return str("%.2f" % 1)
     else:
         for i in range(n - 1):
-            y += (1 / x)
+            y += (float(1) / x)
             x += 3
     return str("%.2f" % y)
