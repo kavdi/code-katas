@@ -6,7 +6,11 @@ from proper_parenthetics import parenthese_pairs
 P_PARAMAS = [
     ('abc(dsdf)dfsdf(sdfsdfs)sdfsdf(sdfs)', 0),
     ('(()(()(', 1),
-    ('()()))())' -1)
+    ('()()))())' -1),
+    (')))(((', -1),
+    ('()((())', 1),
+    ('()((())))()' -1),
+    ('()()(())(' -1)
 ]
 
 
