@@ -1,7 +1,7 @@
 """Test proper_parenthetics module."""
-
 import pytest
 from proper_parenthetics import parenthese_pairs
+
 
 P_PARAMAS = [
     ('abc(dsdf)dfsdf(sdfsdfs)sdfsdf(sdfs)', 0),
